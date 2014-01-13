@@ -16,6 +16,6 @@
     document.cookie = cookieName + '=' + document.documentElement.clientWidth + ':' + document.documentElement.clientHeight + '; path=/';
     // Force browser refresh if not previously set
     if (navigator.cookieEnabled && !prevSet) document.location.reload(true);
-}(document, screen));
+}(document));
 
 
